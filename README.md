@@ -9,6 +9,7 @@ Install the Stylus extension https://addons.mozilla.org/en-US/firefox/addon/styl
 - more compact favorites in the dashboard
 - size-limited main content box, because default is very wide on big monitors
 - reset font size in course view to 1rem. This makes it easier to read on WQHD monitors and also fixes the weird font display when zooming/enlarging the page.
+  - This seems to work well on some pages, but not so well on others. If you don't like it, simply remove the css rule with the font size: 1rem setting.
 
 Screenshots from a 2560x1440 display, at 2023-10-05T0930:
 
