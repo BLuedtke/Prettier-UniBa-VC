@@ -10,7 +10,7 @@ Install the Stylus extension https://addons.mozilla.org/en-US/firefox/addon/styl
 - size-limited main content box, because default is very wide on big monitors
 - reset font size in course view to 1rem. This makes it easier to read on WQHD monitors and also fixes the weird font display when zooming/enlarging the page.
 
-Screenshots from a 2560x1440 display:
+Screenshots from a 2560x1440 display, at 2023-10-05T0930:
 
 Default:
 ![VC_style_default_1](https://github.com/BLuedtke/Prettier-UniBa-VC/assets/33726564/9e901cbf-031a-45a4-b966-aa55d434e22e)
