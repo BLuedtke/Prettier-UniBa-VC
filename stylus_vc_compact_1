@@ -1,0 +1,26 @@
+.text-truncate {
+    overflow: visible;
+    white-space: normal;
+}
+
+.dashboard-card-deck:not(.fixed-width-cards) .dashboard-card {
+    width: calc(15.00% - 0.5rem);
+}
+
+.pagelayout-standard #page.drawers .main-inner,
+body.limitedwidth #page.drawers .main-inner {
+    max-width: 95%;
+    max-width: 1500px;
+}
+
+#region-main-box {
+    max-width: 1400px;
+}
+
+#page-course-view-topics {
+    font-size: 1rem;
+}
+
+.dashboard-list-img {
+    height: 3rem;
+}
