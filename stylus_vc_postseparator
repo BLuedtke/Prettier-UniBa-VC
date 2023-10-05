@@ -1,0 +1,4 @@
+.post {
+    border-bottom: inset;
+    border-bottom-width: 1px;
+}
