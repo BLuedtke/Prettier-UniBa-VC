@@ -8,6 +8,9 @@ Install the Stylus extension https://addons.mozilla.org/en-US/firefox/addon/styl
 - Adds a separator inbetween announcements to make them easier to tell apart   
 ![VC_style_custom_3](https://github.com/BLuedtke/Prettier-UniBa-VC/assets/33726564/cbd06af1-ecff-47ae-be54-22e25552315f)
 
+### stylus_vc_compactfilelist 
+- In VC courses with lots of files in a bullet-point style list, the spacing is wasting a lot of whitespace. This makes files and similar entries appear more compact by reducing the icon height.
+
 ### stylus_vc_compact_1 
 - removes the text-truncation that makes a lot of course titles impossible to read
 - more compact favorites in the dashboard
