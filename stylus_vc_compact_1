@@ -1,8 +1,3 @@
-.text-truncate {
-    overflow: visible;
-    white-space: normal;
-}
-
 .dashboard-card-deck:not(.fixed-width-cards) .dashboard-card {
     width: calc(15.00% - 0.5rem);
 }
@@ -17,10 +12,20 @@ body.limitedwidth #page.drawers .main-inner {
     max-width: 1400px;
 }
 
-#page-course-view-topics {
-    font-size: 1rem;
-}
-
 .dashboard-list-img {
     height: 3rem;
+}
+.list-group-item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.dashboard-card-deck .dashboard-card .dashboard-card-img {
+    height: 3rem;
+}
+
+/* Reduces the size of the boxes on the right fold-out panel, 
+as well as "add new ..." in edit mode */
+.p-3 {
+    padding: 0.5rem !important;
 }
