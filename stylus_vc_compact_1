@@ -1,31 +1,40 @@
-.dashboard-card-deck:not(.fixed-width-cards) .dashboard-card {
-    width: calc(15.00% - 0.5rem);
+/*stylus_vc_compact_1*/
+
+/* 2025-03-24: dashboard-cards seem to now be called course-card -> rename and adjust*/
+.course-card .card-img-top, .theme-card .card-img-top {
+	height: 3rem;
 }
 
+/* 2025-03-24: new way of limiting width of favorites */
+.card-grid.row-cols-lg-3 > * {
+	flex: 0 0 18%;
+	max-width: 33.3333333333%;
+}
+
+/* Assumes roughly 2560x1440 resolution for 27" screen. */
 .pagelayout-standard #page.drawers .main-inner,
 body.limitedwidth #page.drawers .main-inner {
     max-width: 95%;
     max-width: 1500px;
 }
-
 #region-main-box {
     max-width: 1400px;
 }
 
-.dashboard-list-img {
-    height: 3rem;
-}
+/* more compact course list */
 .list-group-item {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-.dashboard-card-deck .dashboard-card .dashboard-card-img {
-    height: 3rem;
+/* more compact course list via limiting course image size,
+ again assumes roughly 2560x1440 resolution for 27" screen */
+.list-group-item.course-listitem .rounded.list-image.mw-100 {
+    max-height: 3rem;
 }
 
 /* Reduces the size of the boxes on the right fold-out panel, 
-as well as "add new ..." in edit mode */
+as well as "add new ..." in edit mode, and other elements with this padding preset */
 .p-3 {
-    padding: 0.5rem !important;
+	padding: 0.5rem !important;
 }
